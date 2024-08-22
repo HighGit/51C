@@ -1,7 +1,7 @@
 import React from 'react';
 import '../Styles/ShareSection.css';
 
-function ShareSection({postType, setPostType})
+function UserChoice({postType, setPostType})
 {
     // Handling the event
     const handlePostTypeChange = (event) => {
@@ -39,7 +39,7 @@ function ShareSection({postType, setPostType})
             <div className = "header">What do you want to ask or share</div>
 
             <div>
-                
+
                 <p>This section is designed based on the type of the post. It could be developed by conditional rendering.{' '}
 
                     {postType === 'question' && (
@@ -56,4 +56,4 @@ function ShareSection({postType, setPostType})
     )
 }
 
-export default ShareSection;
+export default UserChoice;

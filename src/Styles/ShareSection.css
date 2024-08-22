@@ -1,7 +1,7 @@
 .header {
     background-color: #c3c2c2; /* Light grey background */
     padding: 10px;               /* Paddng around the text */
-    border: 1px solid #424242;    /* Optional: Add a broder for better visiblity */
+    border: 1px solid #424242; /* Add a broder for better visiblity */
     font-weight: bold;           /* Bold text */
     font-size: 1.2em;            /* Enlarge the font size */
 }

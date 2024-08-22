@@ -6,7 +6,6 @@
     display: inline-block;
     width: 100px;
     vertical-align: middle;
-    /*text-align: center; // This will make the "Title" to be in the middle of the space between the left-most boundary and the input area*/
 }
 
 .inline-layout input {
